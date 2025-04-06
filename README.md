@@ -1,8 +1,6 @@
-# Surya-132.github.io
+# 🧾 Portfolio Website – Krishna Surya
 
 https://surya-132.github.io/
-
-# 🧾 Portfolio Website – Krishna Surya
 
 This is a personal portfolio website created using **HTML** and **CSS**, designed to showcase my background, skills, and projects. Below is a breakdown of the structure of the website.
 
