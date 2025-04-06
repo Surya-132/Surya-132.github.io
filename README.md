@@ -1,83 +1,84 @@
-# 🧾 Portfolio Website – Krishna Surya
+# My Portfolio Website – Krishna Surya
 
-https://surya-132.github.io/
+[My Website](https://surya-132.github.io/)
 
-This is a personal portfolio website created using **HTML** and **CSS**, designed to showcase my background, skills, and projects. Below is a breakdown of the structure of the website.
+This is my personal portfolio website, built using **HTML** and **CSS**, to showcase who I am, my skills, and the projects I've worked on. Below is an overview of how I’ve structured the site.
 
 ---
 
 ## Website Structure
 
 ### `<!DOCTYPE html>` + `<html>`
-- The website begins with a standard HTML5 declaration.
-- A custom background border is applied using `border-image` directly in the `<html>` tag.
+- I started with a standard HTML5 declaration.
+- I added a custom background border using `border-image` directly in the `<html>` tag.
 
 ---
 
 ### `<head>`
-- Contains:
-  - Page title
-  - Google Fonts (`Tangerine`) for stylized headers
-  - Link to external CSS file
-  - Viewport settings for responsiveness
+Inside the `<head>` section, I included:
+- The page title
+- A link to the **Tangerine** font from Google Fonts for a stylized look
+- A link to my external CSS file
+- Viewport settings to make the site more responsive
 
 ---
 
 ### `<body>`
-Main content of the portfolio. Organized into several sections:
+The body of my portfolio contains all the main content, split into the following sections:
 
 #### 1. **Profile Photo**
-- An image floated to the right (`asset0.jpg`), styled with a black border.
+- I added a profile image (`asset0.jpg`) floated to the right and styled with a black border.
 
 #### 2. **Header + Navigation**
-- Contains:
-  - A heading (`My Portfolio`) with custom font
-  - A simple nav bar with anchor links to:
-    - GitHub
-    - Projects
-    - Contact section
+- The top of the page features:
+  - A heading that says *My Portfolio* in a custom font
+  - A simple nav bar linking to:
+    - My GitHub
+    - The Projects section
+    - The Contact section
 
 #### 3. **About Me (`#about`)**
-- Brief self-introduction
-- Highlights your interests in **Web Dev**, **AI**, and **Competitive Programming**
+- Here I’ve written a short intro about myself.
+- I mention that I’m passionate about **Web Development**, **AI**, and **Competitive Programming**.
 
 #### 4. **Education (`#education`)**
-- A table with three rows for:
-  - School
-  - Intermediate
-  - Current college (Amrita)
+- This section uses a table to show my educational background:
+  - School (St. George’s Grammar School)
+  - Intermediate (FIITJEE)
+  - Current college (Amrita Vishwa Vidyapeetham)
 
 #### 5. **Skills (`#skills`)**
-- Unordered list of languages/tools you’re familiar with:
-  - Dart
-  - HTML/CSS
-  - Python
-  - Java
+- I listed the tools and languages I’m familiar with, including:
+  - Dart (basic)
+  - HTML & CSS (beginner)
+  - Python (intermediate)
+  - Java (basic)
 
 #### 6. **Projects (`#portfolio`)**
-- Section includes:
-  - Titles and descriptions of 4 projects
-  - Corresponding screenshots (`asset1.png`, `asset2.png`, `asset3.png`)
-  - GitHub repo links
+- I’ve showcased 4 of my projects, each with:
+  - A short description
+  - A screenshot (`asset1.png`, `asset2.png`, `asset3.png`)
+  - A link to the GitHub repository
 
 #### 7. **Contact (`#contact`)**
-- Phone number
-- Email (clickable link)
-- Social icons for:
-  - Twitter
-  - Facebook
-  - LinkedIn  
-  Each icon is inside a rounded black-bordered container.
+- I’ve included:
+  - My phone number
+  - My email address (clickable)
+  - Social icons for:
+    - Twitter
+    - Facebook
+    - LinkedIn  
+  Each icon is styled inside a rounded container with a black border.
 
 ---
 
 ## Styling
-- Some inline styles are used (e.g., fonts, borders, layout)
-- Most of the layout is controlled by external CSS (`CSS Portfolio - Final.css`)
-- Uses serif Google font **Tangerine** for titles and emphasis
+- I used some inline styles for quick adjustments.
+- Most of the layout is handled in an external CSS file: `CSS Portfolio - Final.css`
+- The **Tangerine** font from Google Fonts is used to give a decorative, serif style to headers and names.
 
 ---
 
 ## Notes
-- Designed with simplicity in mind – ideal for a beginner project
-- Could be improved further using responsive design, semantic HTML tags, and separating styles from markup
+- I kept the design simple and clean—ideal for a beginner-level web project.
+- I’m planning to improve it over time by adding better responsiveness, semantic HTML, and cleaner separation of structure and styling.
