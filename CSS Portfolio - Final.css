@@ -41,39 +41,35 @@ header {
     transition: background-color 0.3s ease;
 }
 
-header:hover {
-    background-color: #2c72b4;
-}
-
 nav ul {
-    list-style: none;
+    /* list-style: none; */
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline; /*This automatically makes list-style: none; I think*/
     margin: 0 1rem;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    transition: color 0.3s ease, transform 0.3s ease;
+    transition: color 0.5s ease;
 }
 
 nav ul li a:hover {
     color: #ffeb3b;
-    transform: scale(1.1);
 }
 
 section {
     padding: 2rem;
     text-align: center;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
 }
 
 section:hover {
-    background-color: #f0f8ff;
+    background-color: #ecf3f9;
+    border-radius: 5%;
 }
 
 .project {
@@ -159,3 +155,4 @@ img {
 img:hover {
     transform: scale(1.05);
 }
+
