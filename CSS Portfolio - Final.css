@@ -1,8 +1,5 @@
 @media only screen and (max-width: 600px){
-    #education{
-        display: none;
-    }
-    #contact{
+    #education, #contact{
         display: none;
     }
 }
