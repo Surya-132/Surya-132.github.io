@@ -3,7 +3,6 @@
         display: none;
     }
 }
-
 @keyframes slideInLeft {
     0% {
       transform: translateX(-100%);
@@ -27,6 +26,9 @@
 }
 
 html {
+    border:solid rgb(0, 0, 0);
+    border-width: 0px 18vw;
+    border-image: url(https://wallpaperaccess.com/full/1949985.png) 100;
     animation: 0.75s ease-out slideInLeft;
 }
 
@@ -78,6 +80,18 @@ section:hover {
     border-radius: 5%;
 }
 
+h1{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
+
+#myPhoto{
+    float:right;
+    width:20%;
+    height:194px;
+    border: solid black
+}
+
 .project {
     background-color: #fff;
     margin: 1rem 0;
@@ -94,6 +108,11 @@ section:hover {
 
 #about{
     padding-bottom:0%;
+}
+
+#about h2 {
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
 }
 
 #marks{
@@ -116,6 +135,11 @@ td:hover, th:hover {
     padding-top:0%;
     width:40%;
     padding-bottom:0%;
+}
+
+#skills h2 {
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
 }
 
 #skills ul {
