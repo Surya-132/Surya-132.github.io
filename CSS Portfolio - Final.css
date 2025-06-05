@@ -1,3 +1,12 @@
+@media only screen and (max-width: 600px){
+    #education{
+        display: none;
+    }
+    #contact{
+        display: none;
+    }
+}
+
 @keyframes slideInLeft {
     0% {
       transform: translateX(-100%);
